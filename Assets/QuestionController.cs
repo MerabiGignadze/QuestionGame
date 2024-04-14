@@ -55,7 +55,7 @@ public class QuestionController : MonoBehaviour
 	{
 		int grade = 0;
 
-		if (rightAnswers > 1 && rightAnswers < 5) { grade = 1; }
+		if (rightAnswers >= 1 && rightAnswers < 5) { grade = 1; }
 		if (rightAnswers >= 5) { grade = 2; }
 
 		return grade;
